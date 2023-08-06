@@ -1,0 +1,24 @@
+.tableContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.tableContainer th:nth-child(1) {
+  width: 35%;
+}
+.tableContainer th:nth-child(2) {
+  scrollbar-color: 'tomato';
+  width: 55%;
+}
+.tableContainer th:nth-child(3) {
+  width: 10%;
+}
+.tableContainer th:nth-child(4) {
+  width: 10%;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
